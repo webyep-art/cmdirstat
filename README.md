@@ -18,6 +18,8 @@ If you downloaded the binary from the releases page:
   chmod +x cmdirstat
   ./cmdirstat
   ```
+  *(Note: Pre-compiled Linux binary requires a glibc-based distribution like Ubuntu, Debian, Fedora, or Arch. For musl-based systems like Alpine, build from source.)*
+
 
 ### Building from Source
 Make sure you have Rust installed.
