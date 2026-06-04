@@ -6,11 +6,18 @@ It scans directories in parallel, visualizes storage distribution with progress 
 
 ## Usage
 
-### Pre-compiled Binary (Windows)
-If you downloaded the binary from the releases page, run it in terminal/PowerShell:
-```powershell
-.\cmdirstat.exe
-```
+### Pre-compiled Binaries
+If you downloaded the binary from the releases page:
+
+- **Windows**: Run in terminal/PowerShell:
+  ```powershell
+  .\cmdirstat.exe
+  ```
+- **Linux**: Make executable and run:
+  ```bash
+  chmod +x cmdirstat
+  ./cmdirstat
+  ```
 
 ### Building from Source
 Make sure you have Rust installed.
