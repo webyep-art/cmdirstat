@@ -136,7 +136,7 @@ fn draw_browsing(f: &mut Frame, s: &mut BrowsingState) {
         ]));
 
         let header = Paragraph::new(header_text)
-            .block(Block::default().borders(Borders::ALL).title(" cmdirstat "));
+            .block(Block::default().borders(Borders::ALL).title(format!(" cmdirstat v{} ", env!("CARGO_PKG_VERSION"))));
         f.render_widget(header, chunks[0]);
 
         // Layout inner contents inside a block

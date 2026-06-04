@@ -44,16 +44,16 @@ cargo build --release
 
 ## Controls
 
-- `↑` / `k` — Navigate up
-- `↓` / `j` — Navigate down
-- `Enter` / `→` / `l` — Enter folder or select drive
-- `Backspace` / `←` / `h` — Go back
-- `d` / `Delete` — Delete selected file or folder (requires confirmation)
-- `/` — Search / filter
-- `Tab` / `s` — Cycle sort column
-- `Space` / `r` — Toggle sort direction
-- `?` / `F1` — Help menu
-- `q` / `Esc` — Quit / close modal
+- `Up` / `k` - Navigate up
+- `Down` / `j` - Navigate down
+- `Enter` / `Right` / `l` - Enter folder or select drive
+- `Backspace` / `Left` / `h` - Go back
+- `d` / `Delete` - Delete selected file or folder (requires confirmation)
+- `/` - Search / filter
+- `Tab` / `s` - Cycle sort column
+- `Space` / `r` - Toggle sort direction
+- `?` / `F1` - Help menu
+- `q` / `Esc` - Quit / close modal
 
 ## License
 
