@@ -425,7 +425,7 @@ fn format_system_time(time: std::time::SystemTime) -> String {
     if time == std::time::SystemTime::UNIX_EPOCH {
         return "N/A".to_string();
     }
-    let datetime: chrono::DateTime<chrono::Local> = time.into();
+    let datetime: chrono::DateTime<chrono::Utc> = time.into();
     datetime.format("%Y-%m-%d %H:%M").to_string()
 }
 
